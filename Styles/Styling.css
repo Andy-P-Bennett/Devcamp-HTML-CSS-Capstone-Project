@@ -1,0 +1,174 @@
+/* heading Styles */
+.header {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.header > .logo img {
+    width: 120px;
+    /* Height: 100%; */
+    filter: invert(100%);
+    margin-left: 5px;
+}
+.header > .navbar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.header > .navbar > .navlow {
+    display: flex;
+    flex-direction: row;
+}
+
+.header > .buttonStuff > .searchIcon > i{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header > .navbar > .navlow {
+    margin-bottom: 10px;
+}
+.header > .navbar > .navtop {
+    margin-left: 5px;
+    color: #a7aa09
+}
+
+.header > .navbar > .navlow > .a {
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.header > .navbar > .navlow > .spark {
+    color: #3d3d3d;
+    margin-left: 10px;
+}
+
+/* Body Stylings */
+html {
+    font-family: 'Open Sans', sans-serif;
+
+}
+body {
+    background: #2b2b2b;
+    margin: 0;
+    color: white;
+}
+.main {
+    display: flex;
+    justify-content: row;
+}
+.main > .left  {
+    margin-left: 20px;
+    width: 400px;
+}
+.main > .left > .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.main > .right img {
+    width: 75%;
+    float: right;
+    -webkit-box-shadow: 0px 0px 92px 64px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 92px 64px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 92px 64px rgba(0,0,0,0.75);
+}
+
+.top .righttext {
+    /* width: 54.5%; */
+    /* float: center; */
+    margin-left: 40%;
+}
+
+/* footer settings */
+
+.footer {
+    
+    align-items: center;
+    display: grid;
+    background: #535353;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.footer div {
+   align-items: center;
+   text-align: center;
+    border: 1px solid white;
+    font-size: 20pt;
+    display: center;
+    justify-content: center;
+}
+/* spacer */
+.spacer {
+    margin-top: 30px;
+}
+/* Button Stylings, adapted from bestcssbuttongenerator.com */
+
+.btn {
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+    text-decoration:none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-Right: 5px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btnSignUp {
+	background-color:#44c767;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-size:14px;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.btnSignUp:hover {
+	background-color:#5cbf2a;
+}
+.btnSignUp:active {
+	position:relative;
+	top:1px;
+}
+
+.btnLearnMore {
+	background-color:#000000;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 14px;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.btnLearnMore:hover {
+	background-color:#333333;
+}
+.btnLearnMore:active {
+	position:relative;
+	top:1px;
+}
+
+.header > .buttonStuff {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
